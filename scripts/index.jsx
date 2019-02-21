@@ -1,9 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './estilo.css'
+import './estilo'
+import Sala from './sala'
+import Aluno from './aluno'
+
+
 
 ReactDOM.render(
-    <h1>ReactDOM.render</h1>,
+    <Sala turma='A'>
+        <Aluno nome='Thiago' />
+        <Aluno nome='José' />
+        <Aluno nome='Araujo' />
+    </Sala>,
     document.getElementById('app')
 )
 

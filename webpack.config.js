@@ -11,10 +11,12 @@ module.exports = {
         port: 81,
         contentBase: './public'
     },
-        plugins:[
+    resolve: {
+        extensions:['','.js','.jsx','.css']
+    },
+    plugins: [
            new ExtractTextPlugin('app.css')
-        ]
-    ,
+    ], 
     module: {
         loaders:[{
            test: /.jsx?$/,
