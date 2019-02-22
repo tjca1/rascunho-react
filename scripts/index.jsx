@@ -8,9 +8,9 @@ import Aluno from './aluno'
 
 ReactDOM.render(
     <Sala turma='A'>
-        <Aluno nome='Thiago' />
-        <Aluno nome='José' />
-        <Aluno nome='Araujo' />
+        <Aluno name='Thiago' />
+        <Aluno name='Jose' />
+        <Aluno name='Araujo' />
     </Sala>,
     document.getElementById('app')
 )
